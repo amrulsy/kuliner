@@ -1,0 +1,44 @@
+main {
+    background-color: aqua;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "section section aside aside"
+        "article article aside aside"
+        "footer footer footer footer"
+    ;
+}
+
+header {
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+nav {
+    background-color: azure;
+    grid-area: nav;
+}
+
+section {
+    background-color: blue;
+    grid-area: section;
+}
+
+article {
+    background-color: blueviolet;
+    grid-area: article;
+}
+
+aside {
+    background-color: brown;
+    grid-area: aside;
+}
+
+footer {
+    background-color: bisque;
+    grid-area: footer;
+}
