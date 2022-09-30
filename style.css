@@ -21,9 +21,12 @@ header {
 nav {
     background-color: azure;
     grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.satu, .dua, .tiga, .empat {
+.satu, .dua, .tiga, .empat, #center{
     width: 50px;
     height: 50px;
     border: 1px solid black; 
@@ -37,6 +40,9 @@ section {
 article {
     background-color: blueviolet;
     grid-area: article;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 aside {
